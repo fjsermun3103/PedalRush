@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="logo" href="index.html">
+                <img src="assets/img/PedalRush-logo.png" alt="">
+            </a> 
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="menu-mobile">
+                <li class="mobile-logo">
+                    <a href="index.html">
+                        <img src="assets/img/PedalRush-logo.png" alt="PedalRush logo">
+                    </a>
+                </li> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sport.html">SPORT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="#" class="active">CONTACT</a></li>
+            </ul>
+
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sport.html">SPORT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="#" class="active">CONTACT</a></li>
+            </ul>
+
+
+        </nav>
+        <section class="hero-contact">
+            <div class="contact-hero">
+                <div class="contact-content">
+                    <span class="hero-tag">GET IN TOUCH</span>
+                    <h1>Let's Talk <strong>MTB</strong></h1>
+                    <p>
+                        Questions, collaborations, event suggestions or rider stories —
+                        reach out and become part of the PedalRush world.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact-form" class="btn btn-primary">Send Message</a>
+                        <a href="#socials" class="btn btn-secondary">Follow Us</a>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <p class="label">QUICK CONTACT</p>
+                    <h4>Media, events & partnerships</h4>
+                    <p>Response time: 24-48h</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact-form">
+            <div class="contact-header">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h1>Contact Us</h1>
+                <p>
+                    Ask questions, propose content or request collaborations.
+                    We would love to hear from you.
+                </p>
+            </div>
+
+            <div class="contact-wrapper">
+                <form class="contact-form" action="#" method="POST" aria-label="Contact form">
+                    <div class="name-email">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="topic">Topic</label>
+                        <select id="topic" name="topic" required>
+                            <option value="" selected disabled>Select an option</option>
+                            <option value="question">Question</option>
+                            <option value="content">Content Proposal</option>
+                            <option value="collaboration">Collaboration Request</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Write here..." required></textarea>
+                    </div>
+
+                    <div class="privacy">
+                        <label class="checkbox" for="check">
+                            <input type="checkbox" id="check" required>
+                            <span class="checkmark">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                                    <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/>
+                                </svg>
+                            </span>
+                            <span>I agree to the privacy policy</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+        
+                    </button>
+                </form>
+
+                <div class="contact-info">
+                    <p class="info-tag">QUICK CONTACT</p>
+                    <h3>Let's connect</h3>
+                    <p>
+                        For media, rider features, event suggestions and collaborations,
+                        contact us through the form or our social channels.
+                    </p>
+
+                    <div class="info-items">
+                        <div class="info-item">
+                            <span class="label">Email</span>
+                            <p>hello@pedalrush.com</p>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="label">Response Time</span>
+                            <p>24-48 hours</p>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="label">Focus</span>
+                            <p>MTB culture, events and collaborations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="info-header">
+                <span class="section-tag">QUICK CONTACT</span>
+                <h2>More ways to reach PedalRush</h2>
+                <p>Email us, call us or follow the project across our social channels.</p>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-group">
+                    <h3>Direct Contact</h3>
+
+                    <div class="info-card">
+                        <div class="icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true">
+                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200Z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">Email</span>
+                            <p>info@pedalrush.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#C0392B">
+                                <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-7-.5-14.5T799-507q-5 29-27 48t-52 19h-80q-33 0-56.5-23.5T560-520v-40H400v-80q0-33 23.5-56.5T480-720h40q0-23 12.5-40.5T563-789q-20-5-40.5-8t-42.5-3q-134 0-227 93t-93 227h200q66 0 113 47t47 113v40H400v110q20 5 39.5 7.5T480-160Z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">Phone</span>
+                            <p>+34 654 987 321</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-wrap">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                                <path d="M325-111.5q-73-31.5-127.5-86t-86-127.5Q80-398 80-480.5t31.5-155q31.5-72.5 86-127t127.5-86Q398-880 480.5-880t155 31.5q72.5 31.5 127 86t86 127Q880-563 880-480.5T848.5-325q-31.5 73-86 127.5t-127 86Q563-80 480.5-80T325-111.5ZM480-162q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">Location</span>
+                            <p>Global MTB Community</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-group">
+                    <h3>Social Channels</h3>
+
+                    <a href="#" class="social-card">
+                        <div class="icon-wrap">
+                            <svg viewBox="-143 145 512 512" aria-hidden="true">
+                                <g>
+                                    <polygon points="78.9,450.3 162.7,401.1 78.9,351.9"/>
+                                    <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M241,446.8c0,44.1-44.1,44.1-44.1,44.1H29.1c-44.1,0-44.1-44.1-44.1-44.1v-91.5c0-44.1,44.1-44.1,44.1-44.1h167.8c44.1,0,44.1,44.1,44.1,44.1V446.8z"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">YouTube</span>
+                            <p>www.youtube.com/pedalrush</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="social-card">
+                        <div class="icon-wrap">
+                            <svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 19.2 19.2" data-name="Instagram w/circle" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.498 6.651a1.656 1.656 0 0 0-.95-.949 2.766 2.766 0 0 0-.928-.172c-.527-.024-.685-.03-2.02-.03s-1.493.006-2.02.03a2.766 2.766 0 0 0-.929.172 1.656 1.656 0 0 0-.949.95 2.766 2.766 0 0 0-.172.928c-.024.527-.03.685-.03 2.02s.006 1.493.03 2.02a2.766 2.766 0 0 0 .172.929 1.656 1.656 0 0 0 .95.949 2.766 2.766 0 0 0 .928.172c.527.024.685.029 2.02.029s1.493-.005 2.02-.03a2.766 2.766 0 0 0 .929-.171 1.656 1.656 0 0 0 .949-.95 2.766 2.766 0 0 0 .172-.928c.024-.527.029-.685.029-2.02s-.005-1.493-.03-2.02a2.766 2.766 0 0 0-.171-.929zM9.6 12.168A2.568 2.568 0 1 1 12.168 9.6 2.568 2.568 0 0 1 9.6 12.168zm2.669-4.637a.6.6 0 1 1 .6-.6.6.6 0 0 1-.6.6zM11.267 9.6A1.667 1.667 0 1 1 9.6 7.933 1.667 1.667 0 0 1 11.267 9.6zM9.6 0a9.6 9.6 0 1 0 9.6 9.6A9.6 9.6 0 0 0 9.6 0zm4.97 11.661a3.67 3.67 0 0 1-.233 1.214 2.556 2.556 0 0 1-1.462 1.462 3.67 3.67 0 0 1-1.213.233c-.534.024-.704.03-2.062.03s-1.528-.006-2.062-.03a3.67 3.67 0 0 1-1.213-.233 2.556 2.556 0 0 1-1.462-1.462 3.67 3.67 0 0 1-.233-1.213c-.024-.534-.03-.704-.03-2.062s.006-1.528.03-2.062a3.67 3.67 0 0 1 .232-1.213 2.556 2.556 0 0 1 1.463-1.463 3.67 3.67 0 0 1 1.213-.232c.534-.024.704-.03 2.062-.03s1.528.006 2.062.03a3.67 3.67 0 0 1 1.213.232 2.556 2.556 0 0 1 1.462 1.463 3.67 3.67 0 0 1 .233 1.213c.024.534.03.704.03 2.062s-.006 1.528-.03 2.062z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">Instagram</span>
+                            <p>@pedalrush</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="social-card">
+                        <div class="icon-wrap">
+                            <svg viewBox="-143 145 512 512" aria-hidden="true">
+                                <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M215.2,361.2c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"/>
+                            </svg>
+                        </div>
+                        <div class="info-text">
+                            <span class="label">X / Twitter</span>
+                            <p>@pedalrush_official</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="left">
+                    <a href="index.html">
+                        <img src="assets/img/PedalRush-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="right">
+                    <img src="assets/img/instagram.svg" alt="">
+                    <img src="assets/img/twitter.svg" alt="">
+                    <img src="assets/img/youtube.svg" alt="">
+                </div>
+            </div>
+            <div class="policies">
+                <span>Privacy Policy | </span>
+                <span>Terms & Conditions | </span>
+                <span>Cookie Policy | </span>
+                <span>Legal Disclaimer | </span>
+                <span>Copyright Notice</span>
+            </div>
+            <div class="subfooter">&copy; 2025 PedalRush </div>
+        </footer>
+    </body>
+</html>
